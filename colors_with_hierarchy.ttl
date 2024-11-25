@@ -18,14 +18,6 @@ colour:violet a skos:Concept ;
 colour:green a skos:Concept ;
     skos:prefLabel "green"@en, "Grün"@de, "verde"@es ;
     skos:narrower colour:grassgreen ;
-    skos:topConceptOf colour: .
-    
-colour:grassgreen a skos:Concept ;
-    skos:prefLabel "grass-green"@en, "Grasgrün"@de, "Verde hierba"@es ;
-    skos:inScheme colour: .
-
-colour:green a skos:Concept ;
-    skos:prefLabel "green"@en, "Grün"@de, "verde"@es ;
     skos:narrower colour:forest_green ;
     skos:topConceptOf colour: .
     
