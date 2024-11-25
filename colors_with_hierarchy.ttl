@@ -24,11 +24,11 @@ colour:grassgreen a skos:Concept ;
     skos:prefLabel "grass-green"@en, "Grasgrün"@de, "Verde hierba"@es ;
     skos:inScheme colour: .
 
-colour:verde a skos:Concept ;
+colour:green a skos:Concept ;
     skos:prefLabel "green"@en, "Grün"@de, "verde"@es ;
-    skos:narrower colour:verde_bosque ;
+    skos:narrower colour:forest_green ;
     skos:topConceptOf colour: .
     
-colour:verde_bosque a skos:Concept ;
-    skos:prefLabel "verde_bosque"@es, "Waldgrün"@de, "forest_green"@en ;
+colour:forest_green a skos:Concept ;
+    skos:prefLabel "Waldgrün"@de, "forest_green"@en, "verde_bosque"@es ;
     skos:inScheme colour: .
