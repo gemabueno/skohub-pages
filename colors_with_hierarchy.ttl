@@ -17,10 +17,14 @@ colour:violet a skos:Concept ;
 
 colour:green a skos:Concept ;
     skos:prefLabel "green"@en, "Grün"@de, "verde"@es ;
-    skos:narrower colour:grassgreen ;
-    skos:narrower colour:forest_green ;
+    skos:narrower colour:"grassgreen"@en ;
+    skos:narrower colour:"forest_green"@en ;
     skos:topConceptOf colour: .
     
+colour:grass_green a skos:Concept ;
+    skos:prefLabel "Grassgrün"@de, "grass_green"@en, "verde_cesped"@es ;
+    skos:inScheme colour: .
+
 colour:forest_green a skos:Concept ;
     skos:prefLabel "Waldgrün"@de, "forest_green"@en, "verde_bosque"@es ;
     skos:inScheme colour: .
