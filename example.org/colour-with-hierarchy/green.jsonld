@@ -8,14 +8,6 @@
   },
   "narrower": [
     {
-      "id": "https://example.org/colour-with-hierarchy/grassgreen",
-      "prefLabel": {
-        "en": "grass-green",
-        "de": "Grasgrün",
-        "es": "Verde hierba"
-      }
-    },
-    {
       "id": "https://example.org/colour-with-hierarchy/forest_green",
       "prefLabel": {
         "en": "forest_green",
