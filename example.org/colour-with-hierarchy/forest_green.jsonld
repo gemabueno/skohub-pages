@@ -1,5 +1,5 @@
 {
-  "id": "https://example.org/colour-with-hierarchy/verde_bosque",
+  "id": "https://example.org/colour-with-hierarchy/forest_green",
   "type": "Concept",
   "prefLabel": {
     "en": "forest_green",
@@ -7,7 +7,7 @@
     "es": "verde_bosque"
   },
   "broader": {
-    "id": "https://example.org/colour-with-hierarchy/verde",
+    "id": "https://example.org/colour-with-hierarchy/green",
     "prefLabel": {
       "en": "green",
       "de": "Grün",
