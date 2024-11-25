@@ -3,14 +3,16 @@
   "type": "Concept",
   "prefLabel": {
     "en": "green",
-    "de": "Grün"
+    "de": "Grün",
+    "es": "verde"
   },
   "narrower": [
     {
       "id": "https://example.org/colour-with-hierarchy/grassgreen",
       "prefLabel": {
         "en": "grass-green",
-        "de": "Grasgrün"
+        "de": "Grasgrün",
+        "es": "Verde hierba"
       }
     }
   ],
@@ -19,7 +21,8 @@
       "id": "https://example.org/colour-with-hierarchy/",
       "title": {
         "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
+        "de": "Farbvokabular mit Hierarchie",
+        "es": "Vocabulario Colores con jerarquización"
       }
     }
   ],
@@ -33,7 +36,8 @@
       "id": "https://example.org/colour-with-hierarchy/",
       "title": {
         "en": "Colour vocabulary with hierarchy",
-        "de": "Farbvokabular mit Hierarchie"
+        "de": "Farbvokabular mit Hierarchie",
+        "es": "Vocabulario Colores con jerarquización"
       }
     }
   ],
