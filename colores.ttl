@@ -4,22 +4,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 colour: a skos:ConceptScheme ;
-    dct:title "Colour Vocabulary"@en, "Farbvokabular"@de "VocabularioColores"@es;
+    dct:title "Colour Vocabulary"@en, "Farbvokabular"@de, "VocabularioColores"@es;
     dct:creator "Hans Dampf"@de ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept colour:violet, colour:blue .
 
 colour:violet a skos:Concept ;
-    skos:prefLabel "Violett"@de, "violet"@en;
-    skos:altLabel "Lila"@de, "purple"@en ;
+    skos:prefLabel "Violett"@de, "violet"@en, "violeta"@es;
+    skos:altLabel "Lila"@de, "purple"@en, "morado"@es ;
     skos:topConceptOf colour: .
 
 colour:blue a skos:Concept ;
-    skos:prefLabel "Blau"@de, "blue"@en ;
+    skos:prefLabel "Blau"@de, "blue"@en, "azul"@es;
     skos:topConceptOf colour: .
 
 colour:green a skos:Concept ;
-    skos:prefLabel "Verde"@es, "green"@en ;
+    skos:prefLabel "Grün"@de, "green"@en, "Verde"@es ;
     skos:topConceptOf colour: .
 
